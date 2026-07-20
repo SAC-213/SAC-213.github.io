@@ -1,0 +1,22 @@
+.date_clock_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: pink;
+    font-size: 1.1rem;
+
+}
+
+.clock {
+    margin-top: 0px;
+
+}
+
+.calendar {
+    margin-top: 0px;
+}
+
+.day_name {
+    margin-top: 40px;
+}
