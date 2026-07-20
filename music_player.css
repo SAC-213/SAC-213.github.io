@@ -47,7 +47,15 @@
     align-items: center;
     justify-content: center;
     color: white;
+    background: none;
+    border: none;
     z-index: 2;
+}
+
+.skip_button button:focus,
+.previous_button button:focus,
+.pause_play_button button:focus {
+    outline: 2px solid white;
 }
 
 .music_player::before {
@@ -59,4 +67,13 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.3);
     z-index: 1;
+}
+
+#song_player {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+    border: none;
 }

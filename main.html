@@ -22,24 +22,33 @@
             <div class="bento_item element1"> under_construction </div>
 
             <div class="bento_item music_player" id="music_player_bg">
+
+                <div id="song_player"></div>
                 <div class="info_container">
+                    
                     <div class="song_name" id="title">
                         Title
                     </div>
-                    <div class="artist_name" id = "artist">
+                    <div class="artist_name" id="artist">
                         UnknownArtist
                     </div>
                 </div>
 
                 <div class="buttons">
                     <div class="previous_button">
-                        ⏮
+                        <button class = "previous_button" id="previous_button">
+                            ⏮
+                        </button>
                     </div>
                     <div class="pause_play_button">
-                        ⏸
+                        <button class="pause_play_button" id="pause_play_button">
+                            ▶
+                        </button>
                     </div>
                     <div class="skip_button">
-                        ⏭
+                        <button class="skip_button" id="skip_button">
+                            ⏭
+                        </button>
                     </div>
                 </div>
             </div>
@@ -71,4 +80,5 @@
 
     <script src="date.js"></script>
     <script src="music_player.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
 </body>
