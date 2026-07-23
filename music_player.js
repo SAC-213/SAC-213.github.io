@@ -96,7 +96,3 @@ buttons.addEventListener('click', (event) => {
 
     }
 });
-
-window.addEventListener('DOMContentLoaded', () => {
-    playlist_init();
-});

@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
         rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
     <title>Pruebas :P</title>
 </head>
 
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="about_me_item.css">
     <link rel="stylesheet" href="date_clock.css">
     <link rel="stylesheet" href="music_player.css">
+    <link rel="stylesheet" href="utils.css">
 
     <div class="bento_background">
         <div class="bento_box">
@@ -25,7 +27,7 @@
 
                 <div id="song_player"></div>
                 <div class="info_container">
-                    
+
                     <div class="song_name" id="title">
                         Title
                     </div>
@@ -36,7 +38,7 @@
 
                 <div class="buttons">
                     <div class="previous_button">
-                        <button class = "previous_button" id="previous_button">
+                        <button class="previous_button" id="previous_button">
                             ⏮
                         </button>
                     </div>
@@ -73,7 +75,22 @@
                 </div>
             </div>
 
-            <div class="bento_item interests"> under_construction </div>
+            <div class="bento_item utils">
+                <div class="utils_grid">
+                    <div class="utils_item" id="games">
+                        <i data-lucide="gamepad-2"></i>
+                    </div>
+                    <div class="utils_item" name="under_construction1">
+
+                    </div>
+                    <div class="utils_item" name="under_construction2">
+
+                    </div>
+                    <div class="utils_item" name="under_construction3">
+
+                    </div>
+                </div>
+            </div>
             <div class="bento_item element5"> under_construction </div>
         </div>
     </div>
@@ -81,4 +98,7 @@
     <script src="date.js"></script>
     <script src="music_player.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
