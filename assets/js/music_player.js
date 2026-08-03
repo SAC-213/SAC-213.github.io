@@ -8,7 +8,7 @@ function onYouTubeIframeAPIReady() {
 
 async function playlist_init() {
     try {
-        const response = await fetch('playlist.json');
+        const response = await fetch('assets/data/playlist.json');
         playlist = await response.json();
         current_index = Math.floor(Math.random() * (playlist.length));
         init_player(playlist[current_index].id);

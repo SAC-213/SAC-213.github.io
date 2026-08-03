@@ -6,7 +6,7 @@
     width: 100px; 
     height: 100px;
     display: block;
-    background-image: url('change_view.png');
+    background-image: url('../img/change_view.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; 
