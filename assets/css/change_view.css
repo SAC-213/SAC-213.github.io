@@ -1,0 +1,13 @@
+.change_view_button {
+    position: fixed;
+    bottom: 2vh;
+    left: 2vw;
+    z-index: 1;
+    width: 100px; 
+    height: 100px;
+    display: block;
+    background-image: url('change_view.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
