@@ -1,0 +1,25 @@
+.alter_text_container{
+    display: inline-block;
+}
+
+.alter_text_container .alter_text_content{
+    visibility: hidden;
+    background-color: rgb(17, 17, 27);
+    color: rgb(245, 194, 231);
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 100;
+    bottom: 105%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.alter_text_container:hover .alter_text_content{
+    visibility: visible;
+    opacity: 1;
+}
