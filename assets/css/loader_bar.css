@@ -1,0 +1,33 @@
+@keyframes slide_bars_down{
+    0% {
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
+
+.transition_loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    z-index: 99;
+    pointer-events: none;
+}
+
+.bar_loader {
+    flex: 1;
+    height: 100vh;
+    background-color: rgb(157, 70, 112);
+    transform: translateY(0); 
+    animation: slide_bars_down 0.6s ease forwards;
+}
+
+.bar_loader:nth-child(1) { animation-delay: 0.1s;}
+.bar_loader:nth-child(2) { animation-delay: 0.2s;}
+.bar_loader:nth-child(3) { animation-delay: 0.3s;}
+.bar_loader:nth-child(4) { animation-delay: 0.4s;}
+.bar_loader:nth-child(5) { animation-delay: 0.5s;}
