@@ -40,5 +40,11 @@
         "title":"no somos amigos",
         "artist": "siempre no",
         "working":true
+    },
+    {
+        "id": "oiuCOlPaYck",
+        "title":"El Suicidio",
+        "artist": "Los Cretinos Desleales",
+        "working":true
     }
 ]
